@@ -1,0 +1,90 @@
+.autoLayoutTambah {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px;
+  gap: 16px;
+  background: #fffdfc;
+  border-radius: 8px;
+}
+
+.layoutTambah {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 24px;
+  gap: 24px;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.autoLayoutDetail {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 16px;
+  gap: 16px;
+  background: #fffdfc;
+  border-radius: 8px;
+}
+
+.layoutDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+  background: #fdfdfd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.input {
+  width: 100%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titleRight {
+  padding: 2px 5px;
+  background-color: #ededed;
+  color: #a4a4a4;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.textArea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #9d968f;
+}
+
+.textArea:focus {
+  outline: none;
+}
+
+.errorInput {
+  border: 1px solid var(--red-dark);
+}
+
+.inputTitle {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  padding: 0 5px;
+  font-size: 11px;
+  background: var(--white);
+}
+
+.errorTitle {
+  color: var(--red-dark);
+}

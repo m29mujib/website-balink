@@ -1,0 +1,53 @@
+.inputBox {
+  position: relative;
+  flex: 1;
+}
+
+.inputWrapper {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #9d968f;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.error {
+  border: 1px solid var(--red-dark);
+}
+
+.inputTitle {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  padding: 0 5px;
+  font-size: 11px;
+  background: var(--white);
+  z-index: 1;
+}
+
+.errorTitle {
+  color: var(--red-dark);
+}
+
+.iconButton {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}

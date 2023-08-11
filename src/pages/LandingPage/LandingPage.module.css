@@ -1,0 +1,210 @@
+/* navbar landingpage */
+
+.navbarLandingpage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2%;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+  padding-left: 0;
+}
+
+li {
+  text-decoration: none;
+  color: var(--dark-black);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--dark-black);
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.navbarLink {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarLink li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.navbarLink li,
+.link:hover {
+  color: var(--brown-dark);
+}
+
+/* jumbotron */
+
+.bgJumbotron {
+  background-image: url(/src/assets/assetsLandingPage/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.textJumbotron {
+  color: var(--white);
+}
+
+.spanText {
+  color: var(--brown-dark);
+}
+
+/* button */
+
+.buttonMain {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: var(--brown-dark);
+}
+
+/* jumbotron */
+
+.bgJumbotron {
+  background-image: url(/src/assets/assetsLandingPage/background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.textJumbotron {
+  color: var(--white);
+}
+
+.spanText {
+  color: var(--brown-dark);
+}
+
+/* button */
+
+.buttonMain {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: var(--brown-dark);
+}
+
+.buttonMain:hover {
+  color: var(--dark-black);
+}
+
+/* info */
+
+.textInformation {
+  color: var(--dark-black);
+}
+
+/* fitur */
+
+.fiturBg {
+  background-color: var(--brown-medium);
+}
+
+.textFitur {
+  text-align: center;
+  color: var(--dark-black);
+}
+
+.totalFitur {
+  color: var(--brown-dark);
+}
+
+/* event */
+
+.textEvent {
+  color: var(--dark-black);
+}
+
+/* download */
+
+.cardDownload {
+  background-image: url(/src/assets/assetsLandingPage/bali.svg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.textDownload {
+  text-align: center;
+  color: var(--white);
+}
+
+/* rating */
+
+.star {
+  color: var(--orange-dark);
+}
+
+.cardRating {
+  border-radius: 16px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 24px;
+}
+
+.textRating {
+  text-align: center;
+  color: var(--dark-black);
+}
+
+.imgRating {
+  margin-top: -30px;
+}
+
+.items::-webkit-scrollbar {
+  display: none;
+}
+
+.items {
+  display: flex;
+  overflow-x: auto;
+}
+
+.item {
+  min-width: 298px;
+  height: 250px;
+  margin: 20px;
+}
+
+/* footer */
+.bgFooter {
+  background-color: var(--lighter);
+}
+.textFooter {
+  color: var(--dark-black);
+}
+
+hr {
+  opacity: 100%;
+}

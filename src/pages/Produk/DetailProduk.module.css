@@ -1,0 +1,53 @@
+.wrapper {
+    width: 100%;
+}
+
+.wrapperDetail {
+    width: 100%;
+    padding: 24px;
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+}
+
+.parentImages {
+    display: flex;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.imagesDetail {
+    margin-right: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.parentDetail {
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.titleProduk {
+    margin-bottom: 30px;
+}
+
+.kategori,
+.harga,
+.stok {
+    margin-bottom: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.buttonEdit {
+    background-color: var( --dark-brown);
+}
+
+.fotoProduk {
+    width: 120px;
+    border-radius: 5px;
+    margin-right: 30px;
+}

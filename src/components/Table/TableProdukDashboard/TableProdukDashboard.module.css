@@ -1,0 +1,158 @@
+.thead {
+  box-sizing: border-box;
+  background-color: var(--brown-light) !important;
+  color: var(--dark-black) !important;
+}
+
+.tbody {
+  background-color: var(--white);
+}
+
+.container {
+  background-color: var(--light);
+}
+
+.container-fluid {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tableSpan {
+  color: var(--dark-medium);
+}
+
+.previous {
+  background-color: var(--white);
+}
+
+.itemsPerPage {
+  width: 60px;
+  height: 35px;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+}
+
+.paginationPage {
+  border: none;
+  width: 30px;
+  height: 34px;
+  color: var(--dark-medium);
+  border-radius: 8px;
+}
+
+.paginationPage:hover {
+  background-color: var(--dark-brown);
+  color: var(--white);
+}
+
+.btnleft {
+  width: 30px;
+  height: 34px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+  border: none;
+}
+
+.btnright {
+  width: 30px;
+  height: 34px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+  border: none;
+}
+
+.vector {
+  cursor: pointer;
+  position: relative;
+  bottom: 32px;
+  left: 280px;
+}
+
+.tableRow:hover {
+  background-color: #fffcf8;
+  transition: background-color 0.3s ease;
+}
+
+.actionButton {
+  visibility: hidden;
+}
+
+.tableRow:hover .actionButton {
+  visibility: visible;
+}
+
+.active {
+  background-color: var(--dark-brown);
+  color: var(--white);
+}
+
+.roundedLeftTop {
+  border-top-left-radius: 16px;
+}
+
+.roundedRightTop {
+  border-top-right-radius: 16px;
+}
+
+.tableHeadRow {
+  border-bottom-color: transparent !important;
+  background-color: var(--brown-light) !important;
+}
+
+.success {
+  color: var(--green-dark) !important;
+}
+
+.order {
+  color: var(--orange-dark) !important;
+}
+
+.cancel {
+  color: var(--red-dark) !important;
+}
+
+.btnevent {
+  position: absolute;
+  right: 150px;
+  width: 112px;
+  height: 36px;
+  background-color: var(--white) !important;
+  color: var(--dark-medium) !important;
+}
+.btnevent:hover {
+  background-color: var(--dark-brown) !important;
+  color: var(--white) !important;
+}
+
+.btnproduk {
+  position: absolute;
+  right: 0;
+  top: 92px;
+  height: 36px;
+  width: 112px;
+  height: 35px;
+  background-color: var(--white) !important;
+  color: var(--dark-medium) !important;
+}
+
+.btnproduk.active,
+.btnproduk:hover {
+  background-color: var(--dark-brown) !important;
+  color: var(--white) !important;
+}
+
+.theater_comedy {
+  cursor: pointer;
+  position: relative;
+  top: 28px;
+  right: 53px;
+}
+
+.local_mall {
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+  left: 93px;
+}

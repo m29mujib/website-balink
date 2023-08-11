@@ -1,0 +1,8 @@
+.seeMore {
+  color: var(--brown-dark);
+  text-decoration-line: none;
+}
+
+.seeMore:hover {
+  color: var(--brown-darker);
+}

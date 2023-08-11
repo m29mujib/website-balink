@@ -1,0 +1,35 @@
+.modalContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  height: fit-content;
+  width: 100%;
+  max-width: 979px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.avatar {
+  width: 64px;
+  margin-bottom: 24px;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}

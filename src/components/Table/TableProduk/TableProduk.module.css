@@ -1,0 +1,101 @@
+.thead {
+    box-sizing: border-box;
+    background-color: var(--brown-light) !important;
+    color: var(--dark-black) !important;
+}
+
+.tbody {
+    background-color: var(--white);
+}
+
+.container {
+    background-color: var(--light);
+}
+
+.container-fluid {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.tableSpan {
+    color: var(--dark-medium);
+}
+
+.previous {
+    background-color: var(--white);
+}
+
+.itemsPerPage {
+    width: 60px;
+    height: 35px;
+    border: 1px solid #ececec;
+    border-radius: 6px;
+}
+
+.paginationPage {
+    border: none;
+    width: 30px;
+    height: 34px;
+    color: var(--dark-medium);
+    border-radius: 8px;
+}
+
+.paginationPage:hover {
+    background-color: var(--dark-brown);
+    color: var(--white);
+}
+
+.btnleft {
+    width: 30px;
+    height: 34px;
+    background-color: var(--off-white);
+    border-radius: 8px;
+    border: none;
+}
+
+.btnright {
+    width: 30px;
+    height: 34px;
+    background-color: var(--off-white);
+    border-radius: 8px;
+    border: none;
+}
+
+.tableRow:hover {
+    background-color: #fffcf8;
+    transition: background-color 0.3s ease;
+}
+
+.actionButton {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.tableRow:hover .actionButton {
+    visibility: visible;
+}
+
+.active {
+    background-color: var(--dark-brown);
+    color: var(--white);
+}
+
+.roundedLeftTop {
+    border-top-left-radius: 16px;
+}
+
+.roundedRightTop {
+    border-top-right-radius: 16px;
+}
+
+.tableHeadRow {
+    border-bottom-color: transparent !important;
+    background-color: var(--brown-light) !important;
+}
+
+.image {
+    width: 60px;
+    border-radius: 5px;
+}

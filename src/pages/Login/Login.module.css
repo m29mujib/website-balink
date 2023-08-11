@@ -1,0 +1,89 @@
+.backgroundImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.gambar {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+  padding: 4% 8%;
+  background-color: var(--light);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imageLogo {
+  width: 128px;
+  /* height: 150px; */
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.error {
+  border: 1px solid var(--red-dark);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.btnLogin {
+  width: 212px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: var(--dark-brown);
+  letter-spacing: 0.5px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  margin: 10px;
+  color: var(--white);
+}
+
+.password {
+  position: relative;
+}
+
+.iconvisibility {
+  cursor: pointer;
+  position: absolute;
+  top: 23px;
+  right: 10px;
+  width: 22px;
+}
+
+.errorText {
+  color: var(--red-dark);
+}

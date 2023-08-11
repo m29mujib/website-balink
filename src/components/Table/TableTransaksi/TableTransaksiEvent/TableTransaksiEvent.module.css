@@ -1,0 +1,160 @@
+.search {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  gap: 4px;
+  width: 308px;
+  height: 36px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.searchinput {
+  border: none;
+  background: var(--lightest);
+  box-shadow: var(--box-shadow-light);
+  border-radius: 0, 25rem;
+}
+
+.thead {
+  box-sizing: border-box;
+  background-color: var(--brown-light) !important;
+  color: var(--dark-black) !important;
+}
+
+.tbody {
+  background-color: var(--white);
+}
+
+.tableSpan {
+  color: var(--dark-medium);
+}
+
+.previous {
+  background-color: var(--white);
+}
+
+.itemsPerPage {
+  width: 60px;
+  height: 35px;
+  border: 1px solid #ececec;
+  border-radius: 6px;
+}
+
+.paginationPage {
+  border: none;
+  width: 30px;
+  height: 34px;
+  color: var(--dark-medium);
+  border-radius: 8px;
+}
+
+.paginationPage:hover {
+  background-color: var(--dark-brown);
+  color: var(--white);
+}
+
+.btnleft {
+  width: 30px;
+  height: 34px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+  border: none;
+}
+
+.btnright {
+  width: 30px;
+  height: 34px;
+  background-color: var(--off-white);
+  border-radius: 8px;
+  border: none;
+}
+
+.vector {
+  cursor: pointer;
+  position: relative;
+  bottom: 32px;
+  left: 280px;
+}
+
+.tableRow:hover {
+  background-color: var(--lighter);
+  transition: background-color 0.3s ease;
+}
+
+.actionButton {
+  visibility: hidden;
+}
+
+.tableRow:hover .actionButton {
+  visibility: visible;
+}
+
+.active {
+  background-color: var(--dark-brown);
+  color: var(--white);
+}
+
+.roundedLeftTop {
+  border-top-left-radius: 16px;
+}
+
+.roundedRightTop {
+  border-top-right-radius: 16px;
+}
+
+.tableHeadRow {
+  border-bottom-color: transparent !important;
+  background-color: var(--brown-light) !important;
+}
+
+.success {
+  color: var(--green-dark) !important;
+}
+
+.order {
+  color: var(--orange-dark) !important;
+}
+
+.cancel {
+  color: var(--red-dark) !important;
+}
+
+.btnevent {
+  position: absolute;
+  right: 130px;
+  width: 112px;
+  height: 36px;
+  background-color: var(--white) !important;
+  color: var(--dark-medium) !important;
+}
+.btnevent.active,
+.btnevent:hover {
+  background-color: var(--dark-brown) !important;
+  color: var(--white) !important;
+}
+
+.btnproduk {
+  width: 112px;
+  height: 35px;
+  background-color: var(--white) !important;
+  color: var(--dark-medium) !important;
+}
+.btnproduk:hover {
+  background-color: var(--dark-brown) !important;
+  color: var(--white) !important;
+}
+
+.theater_comedy {
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+  right: 57px;
+}
+
+.local_mall {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  left: 140px;
+}

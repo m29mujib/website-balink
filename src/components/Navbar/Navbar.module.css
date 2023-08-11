@@ -1,0 +1,5 @@
+.navbar {
+  padding: 8px 40px !important;
+  background-color: var(--white);
+  box-shadow: var(--box-shadow-light);
+}

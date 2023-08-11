@@ -1,0 +1,118 @@
+.wrapper {
+    width: 100%;
+}
+
+.judul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--white);
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.sideLeft {
+    flex: 1;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideRight {
+    flex: 1;
+    flex-basis: 75%;
+}
+
+
+/* Informasi */
+
+.informasi {
+    width: 100%;
+    background: var(--white);
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.parentInformasi {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    color: var( --light-gray);
+}
+
+.sideLeftInformasi {
+    flex: 1;
+    flex-basis: 50%;
+    padding-right: 10px;
+}
+
+.sideInformasi {
+    width: 100%;
+}
+
+.sideRightInformasi {
+    flex: 1;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+
+/* HJHGFHGHF */
+
+.parentBoxFile {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: var( --dark-brown);
+    display: flex;
+    margin-top: 5px;
+}
+
+.boxFile {
+    display: none;
+}
+
+.AddBoxImage {
+    font-size: 12px;
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.deskripsi {
+    position: relative;
+}
+
+.border {
+    border-radius: 5px;
+}
+
+.parentDeskripsi {
+    position: absolute;
+    top: -13px;
+    left: 10px;
+    background-color: var(--white);
+    padding: 0px 5px;
+}
+
+.deskripsiText {
+    font-size: 11.5px;
+}
+
+.input {
+    margin-bottom: 20px;
+}

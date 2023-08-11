@@ -1,0 +1,182 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 24px;
+    position: relative;
+}
+
+.produkBaru {
+    display: flex;
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.rowTambahProduk {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    /* border: 2px solid green; */
+}
+
+.imageProduk {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.sideLeft {
+    margin-right: 30px;
+    width: 100%;
+}
+
+.sideTop {
+    width: 50%;
+}
+
+.sideTopParent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    padding: 2px 5px;
+    background-color: #ededed;
+    color: #a4a4a4;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.sideGambar {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.boxImage {
+    /* width: 120px;
+    height: 120px; */
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.box p {
+    /* line-height: 120px; */
+    line-height: 100px;
+    text-align: center;
+}
+
+.parentBoxFile {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #a4a4a4;
+    display: inline-block;
+}
+
+.AddBoxImage {
+    margin-left: 35px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 30px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.boxFile {
+    display: none;
+    /* width: 90px;
+    height: 90px; */
+    /* background: #B2B3B2;
+    border-radius: 5px;
+    cursor: pointer; */
+}
+
+.boxTambah p {
+    line-height: 90px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.mainProduk {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 0px 24px;
+    box-shadow: var(--box-shadow-light);
+}
+
+.namaProduk,
+.deskripsiProduk,
+.kategoriProduk,
+.hargaProduk,
+.stokProduk {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid #9d968f;
+    margin-bottom: 20px;
+}
+
+
+/* .deskripsiProduk {
+    padding: 10px 10px 40px;
+} */
+
+.sideRight {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.label {
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-size: 11px;
+    padding: 0px 5px;
+    background-color: var(--white);
+}
+
+.parentButton {
+    display: flex;
+    justify-content: right;
+    margin: 50px;
+}
+
+.buttonRiset {
+    width: 267.75px;
+    height: 36px;
+    background: #fdfdfd;
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+    border: none;
+    margin-right: 20px;
+}
+
+.buttonSimpan {
+    width: 267.75px;
+    height: 36px;
+    background: var(--dark-brown);
+    box-shadow: var(--box-shadow-light);
+    border-radius: 8px;
+    border: none;
+    color: var(--white);
+}
+
+.iconButton {
+    width: 15px;
+    margin-right: 10px;
+}

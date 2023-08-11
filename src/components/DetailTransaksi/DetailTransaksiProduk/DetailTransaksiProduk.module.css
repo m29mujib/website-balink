@@ -1,0 +1,78 @@
+.row {
+  background-color: var(--off-white);
+  border-radius: 8px;
+}
+
+.textJasMie77 {
+  color: var(--dark);
+}
+
+.container {
+  background-color: var(--white);
+}
+
+.thead {
+  box-sizing: border-box;
+  background-color: var(--brown-light) !important;
+  color: var(--dark-black) !important;
+}
+
+.tbody {
+  background-color: var(--white);
+}
+
+.tableRow:hover {
+  background-color: var(--lighter);
+  transition: background-color 0.3s ease;
+}
+
+.roundedLeftTop {
+  border-top-left-radius: 16px;
+}
+
+.roundedRightBot {
+  border-bottom-right-radius: 16px;
+}
+
+.roundedLeftBot {
+  border-bottom-left-radius: 16px;
+}
+
+.roundedRightTop {
+  border-top-right-radius: 16px;
+}
+
+.tableHeadRow {
+  border-bottom-color: transparent !important;
+  background-color: var(--brown-light) !important;
+}
+
+.tableHeadRowBody {
+  border-bottom-color: transparent !important;
+}
+
+.success {
+  color: var(--green-dark) !important;
+}
+
+.order {
+  color: var(--orange-dark) !important;
+}
+
+.cancel {
+  color: var(--red-dark) !important;
+}
+
+.tableRow2 {
+  background-color: var(--brown-light) !important;
+}
+
+.tablestatus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.rowtransaksi {
+  background-color: var(--brown-light) !important;
+  border-radius: 8px;
+}

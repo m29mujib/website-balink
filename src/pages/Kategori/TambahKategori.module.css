@@ -1,0 +1,62 @@
+.tambahEventContainer {
+  background: var(--white);
+  padding: 24px;
+  box-shadow: var(--box-shadow-light);
+}
+
+/* photo */
+.containerEvent {
+  width: 100%;
+  background: var(--white);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow-light);
+}
+/* text */
+.inputBox {
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: 1px solid #9d968f;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.errorInput {
+  border: 1px solid var(--red-dark);
+}
+
+.inputTitle {
+  position: absolute;
+  top: -7px;
+  left: 10px;
+  padding: 0 5px;
+  font-size: 11px;
+  background: var(--white);
+}
+
+.errorTitle {
+  color: var(--red-dark);
+}
+
+/* text wajib */
+
+.sideTopParent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding: 2px 5px;
+  background-color: #ededed;
+  color: #a4a4a4;
+  border-radius: 5px;
+  font-size: 10px;
+}
